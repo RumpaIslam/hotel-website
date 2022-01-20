@@ -1,0 +1,62 @@
+*{margin: 0;padding: 0}
+body
+    {
+    background: url("background/imagesk.jpg") fixed;
+    }
+.main{width: 960px;margin: 10px auto;display: block;overflow: hidden;background: white}
+.header{background: url("images/gradientfromtop.gif");
+    height:73px;width:960px;
+    padding-bottom:5px;padding-left: 155px
+}
+.mainmenu{background:chocolate;overflow:hidden;}
+.mainmenu ul{margin-left:210px;padding:1px;list-style: none;width: 790px}
+.mainmenu li{float: left}
+.mainmenu li a{display:block;padding:9px;color:darkgreen;text-decoration: none}
+.mainmenu li a:hover{color:darkmagenta;background:moccasin}
+#banner{
+    width:645px;
+    height:435px;
+    margin-top:15px;
+    margin-left:155px;
+    padding:6px;
+    bakground:gray;
+    border-style: outset;
+    border-color:slategrey;
+	vertical-align:middle;
+    }
+.maincontent{height: auto;width:960px}
+.content
+    {
+    background-color:whitesmoke;
+    height:200px;
+    width:45%;
+    float: right;
+    margin-right:1.5%;
+    margin-bottom: 1%;
+    padding: 1%;
+    text-align: justify;
+    border-style: double;
+    border-color: darkgreen;
+    }
+
+.content1
+    {
+    background-color:whitesmoke;
+    height:200px;
+    width:42%;
+    float:right;
+    margin-right:4.5%;
+    margin-bottom: 1%;
+    text-justify: auto;
+    padding: 1%;
+    text-align: justify;
+    border-style: double;
+    border-color: darkgreen;
+    }
+.maincontent h2{padding: 5px;color: darkgreen}
+.maincontent img{margin-left:14px}
+.footer{background: url("images/gradientbottom.jpg");height: 50px;width:auto;padding:2%; margin-left:0%; margin-bottom:0%;margin-top:30px; border-top-style:ridge ;background-color:#CCCCCC;}
+.footer a img:hover{background:gainsboro}
+h2{background-color: chocolate;color: darkgreen}
+h3{text-align: center;color:darkblue}
+marquee{background-color:lightsteelblue;color:crimson}

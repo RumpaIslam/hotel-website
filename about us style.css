@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0}
+body
+{
+    background: url("background/imagesk.jpg") fixed;
+}
+.main{width: 960px;margin: 10px auto;display: block;overflow: hidden;background: white}
+.header{background: url("images/gradientfromtop.gif");
+    height:73px;width:960px;
+    padding-bottom:5px;padding-left: 155px
+}
+.mainmenu{background:chocolate;overflow:hidden}
+.mainmenu ul{margin-left:210px;padding:1px;list-style: none;width: 790px}
+.mainmenu li{float: left}
+.mainmenu li a{display:block;padding:9px;color:darkgreen;text-decoration: none}
+.mainmenu li a:hover{color:darkmagenta;background:moccasin}
+.maincontent{height: auto;width: 800px;background-color: darkgray;margin-left: 70px;padding: 10px;
+    border-style: ridge;border-color: chocolate;text-align: justify}
+.footer{background: url("images/gradientbottom.jpg");height: 50px;width:auto;padding:2%; margin-left:0%; margin-bottom:0%;margin-top:30px; border-top-style:ridge ;background-color:#CCCCCC;}
+.footer a img:hover{background:gainsboro}
+h1{text-align:center;color:darkgreen}
+h2{background-color: chocolate;color: darkgreen;width: 450px;text-align: center;margin-left: 180px}
+h3{text-align: center;color:darkblue}
+.image{margin-top: 20px;margin-left: 170px;border-style: outset;border-color: chocolate;width: 600px}
+p{text-align: justify}
+marquee{background-color:lightsteelblue;color:crimson}
